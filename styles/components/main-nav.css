@@ -1,0 +1,18 @@
+.main-nav {
+
+    ul {
+        gap: 100px;
+        margin-right: 1rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    a {
+        color: var(--clr-1);
+        text-decoration: none;
+        
+        &:hover {
+            color: var(--clr-2);
+        }
+    }
+}

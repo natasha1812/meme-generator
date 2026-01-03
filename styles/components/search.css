@@ -1,0 +1,15 @@
+.search-box-layout {
+    background-color: var(--clr-5);
+    border-radius: 81px;
+    border: 0.125rem solid #E5E5E5;
+    height: 2.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.search-box-layout p {
+    font-family: roboto-italic;
+    color: var(--clr-1);
+    margin-left: 1.25rem;
+}

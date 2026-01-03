@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: roboto;
+    color: var(--clr-1);
+}
+
+body {
+    margin: 0;
+    font-size: 0.875rem;
+    background-color: var(--clr-4);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 3.2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}

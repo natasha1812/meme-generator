@@ -1,0 +1,65 @@
+.memes-editor-layout {
+    background-color: var(--clr-5);
+    overflow: hidden;
+    height: 100%;
+}
+
+.back-button {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    align-self: start;
+    grid-auto-flow: column;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 0;
+    background-color: var(--clr-5);
+    color: var(--clr-1);
+    font-size: 0.875rem;
+}
+
+.back-button::before {
+    content: "<";
+}
+
+.selected-image {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    place-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+aside {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 / 3;
+    background-color: var(--clr-4);
+    grid-template-rows: auto 1fr auto;
+}
+
+aside h2 {
+    grid-row: 1;
+    padding: 0.5rem;
+    margin-left: 0.8rem;
+}
+
+.share-button {
+    grid-column: 2;
+    grid-row: 3;
+    border: none;
+    background-color: var(--clr-2);
+    border-radius: 35px;
+    width: 8.75rem;
+    height: 3.375rem;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    color: var(--clr-5);
+    justify-self: end;
+    align-self: end;
+    margin: 2.4rem 1.6rem;
+}
