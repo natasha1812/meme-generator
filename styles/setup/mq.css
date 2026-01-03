@@ -104,6 +104,7 @@
         align-self: center;
         padding-top: 1.875rem;
         background-color: var(--clr-4);
+        margin-bottom: 5%;
     }
 
     aside {

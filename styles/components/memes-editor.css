@@ -32,6 +32,12 @@
     place-items: center;
     width: 75%;
     margin: auto;
+    margin-bottom: 25%;
+}
+
+.canvas {
+    max-width: 50%;
+    height: auto;
 }
 
 aside {
