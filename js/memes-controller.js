@@ -13,9 +13,9 @@ function renderMeme() {
     } else {
         var imgNum = meme.selectedImgId
         if (imgNum < 10) {
-            imgUrl = '/images/0' + imgNum + '.jpg'
+            imgUrl = './images/0' + imgNum + '.jpg'
         } else {
-            imgUrl = '/images/' + imgNum + '.jpg'
+            imgUrl = './images/' + imgNum + '.jpg'
         }
     }
 
