@@ -6,9 +6,9 @@ function renderGallery() {
         var img = document.createElement('img')
         var imgNum = i
         if (imgNum < 10) {
-            img.src = '/images/0' + imgNum + '.jpg'
+            img.src = './images/0' + imgNum + '.jpg'
         } else {
-            img.src = '/images/' + imgNum + '.jpg'
+            img.src = './images/' + imgNum + '.jpg'
         }
         img.setAttribute('onclick', 'onImgSelect(' + i + ')')
         galleryLayout.appendChild(img)
