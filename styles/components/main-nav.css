@@ -14,5 +14,9 @@
         &:hover {
             color: var(--clr-2);
         }
+
+        &:click {
+            color: var(--clr-2);
+        }
     }
 }
