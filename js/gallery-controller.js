@@ -1,3 +1,4 @@
+"use strict"
 function renderGallery() {
     var galleryLayout = document.querySelector('.gallery-layout')
     galleryLayout.innerHTML = ''
