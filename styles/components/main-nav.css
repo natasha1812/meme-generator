@@ -15,7 +15,8 @@
             color: var(--clr-2);
         }
 
-        &:click {
+        &:active,
+        &:focus {
             color: var(--clr-2);
         }
     }
