@@ -11,12 +11,8 @@
         color: var(--clr-1);
         text-decoration: none;
         
-        &:hover {
-            color: var(--clr-2);
-        }
-
-        &:active,
-        &:focus {
+        &:hover,
+        &.active {
             color: var(--clr-2);
         }
     }
