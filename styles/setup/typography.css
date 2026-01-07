@@ -1,14 +1,14 @@
 @font-face {
     font-family: roboto;
-    src: url(../../fonts/Roboto-VariableFont_wdth\,wght.ttf);
+    src: url(/fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
 
 @font-face {
     font-family: roboto-italic;
-    src: url(../../fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+    src: url(/fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf);
 }
 
 @font-face {
     font-family: logo;
-    src: url(../../fonts/Bubblegum.ttf);
+    src: url(/fonts/Bubblegum.ttf);
 }

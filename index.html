@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MemeGen</title>
     <link rel="stylesheet" href="./styles/styles.css">
-    <base href="/meme-generator/">
 </head>
 
 <body class="main-layout">
@@ -44,13 +43,13 @@
                 <h2>Edit Text Lines</h2>
                 <div class="text-editor">
                     <div class="text-input">
-                        <input type="text" placeholder="Enter your text here...">
+                        <input type="text" placeholder="Enter your text here..." oninput="setLineTxt(this.value)">
+                    </div>
+                    <div class="emojies">
+                    <div>😀 😅 ☺️ 🙃 🤪</div>
                     </div>
                 </div>
-                <div class="emojies">
-
-                </div>
-                <button class="share-button">Share</button>
+                <button class="download-button" onclick="onDownloadMeme()">Download</button>
             </aside>
         </section>
     </div>
@@ -61,6 +60,7 @@
 
     <script src="./js/memes-service.js"></script>
     <script src="./js/memes-controller.js"></script>
+    <script src="./js/gallery-service.js"></script>
     <script src="./js/gallery-controller.js"></script>
     <script>
         function toggleMenu() {

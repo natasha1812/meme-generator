@@ -60,7 +60,8 @@
             transition: background-color .4s;
 
 
-            &:hover {
+            &:hover,
+            &.active {
                 color: var(--clr-5);
                 font-weight: 500;
             }
@@ -120,7 +121,7 @@
         margin-left: 0.8rem;
     }
 
-    .share-button {
+    .download-button {
         grid-column: 1;
         grid-row: 3;
         width: 90%;

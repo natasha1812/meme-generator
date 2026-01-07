@@ -2,7 +2,7 @@
 
 var gMeme
 
-var gImgs = [{ id: 1, url: './images/01.jpg', keywords: ['funny', 'person'] }]
+var gImgs = [{ id: 1, url: './images/1.jpg', keywords: ['funny', 'person'] }]
 var gMeme = {
     selectedImgId: 5,
     selectedLineIdx: 0,
@@ -17,12 +17,19 @@ var gMeme = {
 var gKeywordSearchCountMap = { 'funny': 12, 'cat': 16, 'baby': 2 }
 
 function getMeme() {
-
+    return gMeme
 }
 
-function setLineTxt() {
-    gMeme
+function getImgUrl(imgId) {
+    var folder = 'diff-ratio-imgs'
+    if (window.location.pathname.includes('memes.html')) {
+        folder = 'square-imgs'
+    }
+    return './images/' + folder + '/' + imgId + '.jpg'
+}
 
+function setLineTxt(txt) {
+    gMeme.lines[0].txt = txt
     renderMeme()
 }
 
