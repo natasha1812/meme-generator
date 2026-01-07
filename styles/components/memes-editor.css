@@ -68,9 +68,9 @@ aside h2 {
     font-size: 1.125rem;
     color: var(--clr-5);
     justify-self: end;
-    align-self: end;
-    margin: 2.4rem 1.6rem;
-    text-decoration: none;
+    align-self: center;
+    justify-self: center;
+    margin: 0;
 }
 
 
