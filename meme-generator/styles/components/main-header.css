@@ -1,0 +1,12 @@
+.main-header {
+    height: 3.125rem;
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+    background-color: var(--clr-5);
+    width: 100%;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header-container {
+    grid-column: 2;
+}
