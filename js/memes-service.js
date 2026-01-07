@@ -1,3 +1,5 @@
+"use strict"
+
 var gMeme
 
 var gImgs = [{ id: 1, url: './images/01.jpg', keywords: ['funny', 'person'] }]
