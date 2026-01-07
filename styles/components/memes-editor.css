@@ -31,8 +31,7 @@
     grid-row: 2;
     place-items: center;
     width: 75%;
-    margin: auto;
-    margin-bottom: 25%;
+    margin: auto; /* Remove the margin-bottom: 25% */
 }
 
 .canvas {
