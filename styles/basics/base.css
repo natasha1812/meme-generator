@@ -26,3 +26,15 @@ button {
 img {
     cursor: pointer;
 }
+
+.user-msg {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--clr-2);
+    color: var(--clr-5);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+}

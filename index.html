@@ -41,15 +41,20 @@
             </div>
             <aside class="editor-sidebar">
                 <h2>Edit Text Lines</h2>
-                <div class="text-editor">
-                    <div class="text-input">
-                        <input type="text" placeholder="Enter your text here..." oninput="setLineTxt(this.value)">
-                    </div>
-                    <div class="emojies">
-                    <div>😀 😅 ☺️ 🙃 🤪</div>
-                    </div>
+                <div class="text-input">
+                    <input type="text" placeholder="Enter your text here..." oninput="setLineTxt(this.value)">
                 </div>
-                <button class="download-button" onclick="onDownloadMeme()">Download</button>
+                <div class="emojies">
+                    <span onclick="onAddEmoji('😀')">😀</span>
+                    <span onclick="onAddEmoji('😅')">😅</span>
+                    <span onclick="onAddEmoji('☺️')">☺️</span>
+                    <span onclick="onAddEmoji('🙃')">🙃</span>
+                    <span onclick="onAddEmoji('🤪')">🤪</span>
+                </div>
+                <div class="editor-buttons">
+                    <button class="download-button" onclick="onDownloadMeme()">Download</button>
+                    <button class="save-button" onclick="onSaveMeme()">Save</button>
+                </div>
             </aside>
         </section>
     </div>
@@ -58,6 +63,8 @@
         <p>Meme Generator 2026</p>
     </footer>
 
+    <script src="./js/util-service.js"></script>
+    <script src="./js/storage-service.js"></script>
     <script src="./js/memes-service.js"></script>
     <script src="./js/memes-controller.js"></script>
     <script src="./js/gallery-service.js"></script>

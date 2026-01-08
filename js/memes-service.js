@@ -36,3 +36,15 @@ function setLineTxt(txt) {
 function setImg(imgId) {
     gMeme.selectedImgId = imgId
 }
+
+
+function getSavedMemes() {
+	var savedMemes = loadFromStorage('savedMemes')
+	return savedMemes || []
+}
+
+function saveMeme(memeData) {
+	var savedMemes = getSavedMemes()
+	savedMemes.push(memeData)
+	saveToStorage('savedMemes', savedMemes)
+}

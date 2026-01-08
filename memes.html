@@ -33,31 +33,12 @@
         </main>
     </div>
 
-    <div class="memes-editor-view hidden">
-        <section class="memes-editor-layout">
-            <button class="back-button" onclick="onBackToGallery()">Back to Gallery</button>
-            <div class="selected-image">
-                <canvas class="canvas" width="500" height="500"></canvas>
-            </div>
-            <aside class="editor-sidebar">
-                <h2>Edit Text Lines</h2>
-                <div class="text-editor">
-                    <div class="text-input">
-                        <input type="text" placeholder="Enter your text here..." oninput="setLineTxt(this.value)">
-                    </div>
-                    <div class="emojies">
-                    <div>😀 😅 ☺️ 🙃 🤪</div>
-                    </div>
-                </div>
-                <button class="download-button" onclick="onDownloadMeme()">Download</button>
-            </aside>
-        </section>
-    </div>
-
     <footer class="main-footer">
         <p>Meme Generator 2026</p>
     </footer>
 
+    <script src="./js/util-service.js"></script>
+    <script src="./js/storage-service.js"></script>
     <script src="./js/memes-service.js"></script>
     <script src="./js/memes-controller.js"></script>
     <script src="./js/gallery-service.js"></script>
